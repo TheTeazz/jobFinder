@@ -1,0 +1,32 @@
+.nav-item{
+    color: white;
+    font-size: 11px;
+    padding: 10px 3px;
+    cursor: pointer;
+    
+}
+.nav-item:hover{
+    background-color: white;
+    color: #44733C;
+}
+.nav-items{
+    height: 95vh;
+    background-color: #44733C;
+}
+
+
+.logout-btn{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    font-size: small;
+}
+.logout-btn:hover{
+    color: #44733C;
+    border: 1px solid #44733C;
+    background-color: white;
+}
+.f-awesome{
+    color: red;
+    font-size: small;
+}
