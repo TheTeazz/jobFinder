@@ -1,13 +1,25 @@
-.main {
-  /* border: 1px solid red; */
- font-size: 10px;
+.main{
+  overflow-x: hidden;
 }
-/* .content{
-  border: 1px solid red;
+.user{
+  right: 2%;
+  top: 0;
+  color: #44733C;
 }
-.widget{
-  border: 1px solid red;
-} */
+.user-name{
+  font-size: 10px;
+  font-style: italic;
+}
+.user-image{
+  background-color: aliceblue;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #44733C;
+  cursor: pointer;
+}
+.wid{
+}
 .right {
   background-color: #fee7e0;
   color: #44733c;
@@ -15,6 +27,9 @@
 .left {
   background-color: #d7f8f2;
   color: #44733c;
+}
+.rec{
+
 }
 table {
   color: #44733c;
@@ -31,3 +46,4 @@ th{
 .cap{
   font-size: small;
 }
+
