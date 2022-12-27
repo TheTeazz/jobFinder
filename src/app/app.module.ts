@@ -7,8 +7,9 @@ import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { SideNavComponent } from './components/dashboard/side-nav/side-nav.component';
-import { MainComponent } from './components/dashboard/main/main.component';
-import { DashboardContainerComponent } from './components/dashboard/dashboard-container/dashboard-container.component';
+import { OverviewComponent } from './components/dashboard/overview/overview.component';
+import { JobMatchesComponent } from './components/job-matches/job-matches.component';
+import { UserInfoComponent } from './components/dashboard/user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +18,9 @@ import { DashboardContainerComponent } from './components/dashboard/dashboard-co
     SignUpComponent,
     LandingPageComponent,
     SideNavComponent,
-    MainComponent,
-    DashboardContainerComponent
+    OverviewComponent,
+    JobMatchesComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,

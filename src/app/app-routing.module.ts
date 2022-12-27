@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component'
-import { DashboardContainerComponent } from './components/dashboard/dashboard-container/dashboard-container.component';
+import { JobMatchesComponent } from './components/job-matches/job-matches.component';
+import { OverviewComponent } from './components/dashboard/overview/overview.component';
 
 const routes: Routes = [
   {path:'', component: LandingPageComponent},
-  {path:'Dashboard', component: DashboardContainerComponent},
+  {path:'Overview', component: OverviewComponent},
+  {path:'Job-matches', component: JobMatchesComponent},
   {path:'LogIn', component: LoginComponent},
   {path:'SignUp', component: SignUpComponent},
 ];

@@ -1,0 +1,29 @@
+/* widget styles */
+.right {
+  background-color: #fee7e0;
+  color: #44733c;
+}
+.left {
+  background-color: #d7f8f2;
+  color: #44733c;
+}
+
+
+
+/* table styles */
+table {
+  color: #44733c;
+}
+thead{
+    background-color: #BAB8B8;
+}
+td{
+  font-size: small;
+}
+th{
+  font-size: small;
+}
+.cap{
+  font-size: small;
+}
+
