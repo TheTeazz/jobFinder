@@ -35,18 +35,11 @@
     color: red;
     text-decoration: none;
     font-size: small;
-    
+    border: 1px solid white;
 }
 .logout-btn:hover{
-    color: #44733C;
+    color: red;
     border: 1px solid #44733C;
     background-color: white;
 }
 
-.lg-btn{
-    border: 1px solid white;
-}
-.lg-btn:hover{
-    border: 1px solid white;
-    background-color: white;
-}

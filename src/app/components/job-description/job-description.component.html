@@ -1,20 +1,16 @@
-<div class="main">
+<div class="">
 
     <!-- user info -->
     <div class="">
         <app-user-info></app-user-info>
     </div>
-
-
-    <!-- headline -->
-    <div class="mb-2">
-        <b>Hi Tosin, here are some jobs recommended for you</b>
+    
+    <div class="return" >
+        <button class="btn" routerLink="/Job-matches"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></button>
     </div>
 
 
-    <!-- job recommendations -->
-    <div class="row p-1 justify-content-center">
-        <div class="card p-3 m-1 col-md-5" *ngFor="let item of jobs">
+        <div class="card p-3 m-4" *ngFor="let item of desc">
             <div class="d-flex justify-content-between">
     
                 <div class="job-header">
@@ -30,7 +26,17 @@
             </div>
     
             <div class="">
-                <h5 class="requirements ms-2"><b>Requirements</b> </h5>
+                <h5 class="requirements ms-2"><b>Job Responsibilities</b> </h5>
+                
+                <ul>
+                    <li>{{item.responsibilities[0]}}</li>
+                    <li>{{item.responsibilities[1]}}</li>
+                    <li>{{item.responsibilities[2]}}</li>
+                </ul>
+            </div>
+    
+            <div class="">
+                <h5 class="requirements ms-2"><b>Job Requirements</b> </h5>
                 
                 <ul>
                     <li>{{item.requirements[0]}}</li>
@@ -39,10 +45,7 @@
                 </ul>
             </div>
     
-            <div class="text-center" >
-                <a class="btn" (click)="toJobDescription()">View details</a>
+            <div class="text-center" *ngIf="!item.isApplied">
+                <a class="btn details-btn">View details</a>
             </div>
-        </div>
-    </div>
-   
 </div>

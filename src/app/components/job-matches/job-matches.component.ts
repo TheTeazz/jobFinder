@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import {  Router } from '@angular/router';
 import { Jobs } from 'src/app/jobs';
 
 @Component({
@@ -9,13 +10,18 @@ import { Jobs } from 'src/app/jobs';
 export class JobMatchesComponent implements OnInit {
 
  @Input() jobs: Jobs[] = []
-  constructor() { }
+
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
     this.jobs.push(new Jobs('Mobile App Developer', 'Bincom Dev Center, Lagos', true, ['Must be able to write clean and readable code using angularJS', 'Must be able to create responsive beautiful user interfaces....', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, beatae itaque. Dolor!' ]))
     this.jobs.push(new Jobs('Frontend Developer', 'Apple inc.', false, ['Must be able to write clean and readable code using angularJS', 'Must be able to create responsive beautiful user interfaces....', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, beatae itaque. Dolor!' ]))
     this.jobs.push(new Jobs('Full Stack Developer', 'Microsoft', false, ['Must be able to write clean and readable code using angularJS', 'Must be able to create responsive beautiful user interfaces....', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, beatae itaque. Dolor!' ]))
     this.jobs.push(new Jobs('Angular Developer', 'Google inc.', true, ['Must be able to write clean and readable code using angularJS', 'Must be able to create responsive beautiful user interfaces....', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, beatae itaque. Dolor!' ]))
+  }
+
+  toJobDescription(){
+    this.router.navigate(['./Job-description'])
   }
 
 }

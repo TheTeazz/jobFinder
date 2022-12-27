@@ -10,6 +10,7 @@ import { SideNavComponent } from './components/dashboard/side-nav/side-nav.compo
 import { OverviewComponent } from './components/dashboard/overview/overview.component';
 import { JobMatchesComponent } from './components/job-matches/job-matches.component';
 import { UserInfoComponent } from './components/dashboard/user-info/user-info.component';
+import { JobDescriptionComponent } from './components/job-description/job-description.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { UserInfoComponent } from './components/dashboard/user-info/user-info.co
     SideNavComponent,
     OverviewComponent,
     JobMatchesComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    JobDescriptionComponent
   ],
   imports: [
     BrowserModule,
