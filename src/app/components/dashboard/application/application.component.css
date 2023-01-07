@@ -1,0 +1,15 @@
+.btn{
+    background-color: #D9D9D9;
+}
+.pageDescription{
+   color: #44733C; 
+}
+.table{
+    font-size: small;
+}
+td:nth-child(2){
+    font-weight: 700;
+}
+i{
+    color: #44733C;
+}
