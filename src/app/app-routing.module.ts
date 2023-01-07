@@ -7,6 +7,7 @@ import { JobMatchesComponent } from './components/job-matches/job-matches.compon
 import { OverviewComponent } from './components/dashboard/overview/overview.component';
 import { JobDescriptionComponent } from './components/job-description/job-description.component';
 import { DashboardComponent } from './components/dashboard/dashboard/dashboard.component';
+import { ApplicationComponent } from './components/dashboard/application/application.component';
 
 const routes: Routes = [
   {path:'', component: LandingPageComponent},
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path:'LogIn', component: LoginComponent},
   {path:'SignUp', component: SignUpComponent},
   {path:'Dashboard', component: DashboardComponent},
+  {path:'Applications', component: ApplicationComponent},
 ];
 
 @NgModule({
