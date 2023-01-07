@@ -1,6 +1,7 @@
-.container{
+.bod{
     height: 100vh;
     background-color: #44733C;
+    position: fixed;
 }
 .logo{
     position: absolute;

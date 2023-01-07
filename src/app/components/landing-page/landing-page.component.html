@@ -20,7 +20,7 @@
                         <a class="nav-link fs-6" style=" color: #44733C;" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-6" style=" color: #44733C;" href="" routerLink="/Dashboard">How it works</a>
+                        <a class="nav-link fs-6" style=" color: #44733C;" href="" (click)="navigateToDashboard()">How it works</a>
                     </li>
 
 
@@ -51,7 +51,7 @@
                 <button class="btn btn-lg me-2 rounded-0" style="color: #44733C; background-color: #dafadb; border: 1px solid #44733C;"
                     routerLink="/SignUp">Register</button>
                 <button class="btn btn-lg me-2 rounded-0" style="color: #ffffff; background-color: #44733C;"
-                    routerLink="/LogIn">Log in</button>
+                (click)="navigateToLogIn()">Log in</button>
             </div>
 
 
@@ -74,11 +74,7 @@
 
     <div class="row align-items-center justify-content-center py-5" style="background-color: #44733C;">
 
-        <!-- <div class="col-sm-6 me-1">
-            <img class='img-fluid container-sm'
-                src="https://www.pima.edu/_files/images/custom-icons/degree-icon.png"
-                class="img-fluid" alt="" >
-        </div> -->
+       
 
         <div class="col-sm-7 p-1 text-center">
             <h5 class="text-light fs-2 mb-3">Looking to take the next step in your career?</h5>
@@ -244,3 +240,4 @@
         </div>
     </footer>
 </div>
+

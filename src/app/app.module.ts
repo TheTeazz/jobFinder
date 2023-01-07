@@ -11,6 +11,7 @@ import { OverviewComponent } from './components/dashboard/overview/overview.comp
 import { JobMatchesComponent } from './components/job-matches/job-matches.component';
 import { UserInfoComponent } from './components/dashboard/user-info/user-info.component';
 import { JobDescriptionComponent } from './components/job-description/job-description.component';
+import { DashboardComponent } from './components/dashboard/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { JobDescriptionComponent } from './components/job-description/job-descri
     OverviewComponent,
     JobMatchesComponent,
     UserInfoComponent,
-    JobDescriptionComponent
+    JobDescriptionComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
