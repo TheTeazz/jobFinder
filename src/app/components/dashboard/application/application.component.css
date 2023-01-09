@@ -13,3 +13,19 @@ td:nth-child(2){
 i{
     color: #44733C;
 }
+.container-fluid{
+    
+}
+.paginationBtn{
+    border: 1px solid #44733C;
+    color: white;
+    background-color: #44733C;
+}
+.paginationBtn:hover{
+    background-color: #44733C;
+    color: white;
+    border: none;
+}
+.pagin {
+    color: white;
+}

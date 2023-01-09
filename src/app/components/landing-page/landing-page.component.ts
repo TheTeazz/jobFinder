@@ -11,11 +11,4 @@ export class LandingPageComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  navigateToDashboard(){
-    this.router.navigateByUrl('/Dashboard');
-    }
-    
-    navigateToLogIn(){
-    this.router.navigateByUrl('/LogIn') ;
-    }
 }
