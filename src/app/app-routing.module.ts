@@ -8,6 +8,7 @@ import { OverviewComponent } from './components/dashboard/overview/overview.comp
 import { JobDescriptionComponent } from './components/job-description/job-description.component';
 import { DashboardComponent } from './components/dashboard/dashboard/dashboard.component';
 import { ApplicationComponent } from './components/dashboard/application/application.component';
+import { ProfilePageComponent } from './components/profile-page/profile-page.component';
 
 const routes: Routes = [
   {path:'', component: LandingPageComponent},
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:'SignUp', component: SignUpComponent},
   {path:'Dashboard', component: DashboardComponent},
   {path:'Applications', component: ApplicationComponent},
+  {path:'Profile', component: ProfilePageComponent},
 ];
 
 @NgModule({

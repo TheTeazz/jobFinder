@@ -1,4 +1,4 @@
-<div class="bod d-flex flex-column align-items-center justify-content-around">
+<div class="bod col-sm-2 col-1 d-flex flex-column align-items-center justify-content-around">
 
     <!-- logo -->
     <div class="logo d-flex justify-content-center align-items-center" (click)="navigateToHome()">
@@ -17,7 +17,6 @@
 
         
         <div routerLink="/Overview" routerLinkActive="active" class="nav-item">
-            <!-- <i class="fa fa-bars p-1" aria-hidden="true"></i> -->
             <span class="d-sm-block d-lg-inline-block"> Overview</span>
         </div>
         <div routerLink="/Job-matches" routerLinkActive="active" class="nav-item">
@@ -32,7 +31,7 @@
             <i class="fa fa-android p-1" aria-hidden="true"></i>
             <span class="d-sm-block d-lg-inline-block"> Auto-Apply</span>
         </div>
-        <div class="nav-item">
+        <div routerLink="/Profile" routerLinkActive="active" class="nav-item">
             <i class="fa fa-user p-1" aria-hidden="true"></i>
             <span class="d-sm-block d-lg-inline-block"> Profile page</span>
         </div>

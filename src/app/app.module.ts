@@ -13,6 +13,7 @@ import { UserInfoComponent } from './components/dashboard/user-info/user-info.co
 import { JobDescriptionComponent } from './components/job-description/job-description.component';
 import { DashboardComponent } from './components/dashboard/dashboard/dashboard.component';
 import { ApplicationComponent } from './components/dashboard/application/application.component';
+import { ProfilePageComponent } from './components/profile-page/profile-page.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ApplicationComponent } from './components/dashboard/application/applica
     UserInfoComponent,
     JobDescriptionComponent,
     DashboardComponent,
-    ApplicationComponent
+    ApplicationComponent,
+    ProfilePageComponent
   ],
   imports: [
     BrowserModule,
