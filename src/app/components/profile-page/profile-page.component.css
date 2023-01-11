@@ -12,9 +12,7 @@
     background-color: rgba(0, 0, 0, .1);
     font-size: 12px;
 }
-button > i {
-    color: red;
-}
+
 
 
 /* profile information */
@@ -50,6 +48,7 @@ h6{
 }
 textarea{
     font-size: 12px;
+    min-height: 100px;
 }
 .submit{
     color: white;
@@ -57,6 +56,7 @@ textarea{
     font-size: 12px;
     background-color: #283C63;
 }
+
 
 
 /* work experience */
@@ -98,4 +98,37 @@ input::placeholder{
 }
 .location{
     color: grey;
+}
+
+/* other job settings */
+label{
+    font-size: 12px;
+    color: grey;
+}
+.resumeBtn{
+    border: none;
+    background-color: transparent;
+    color: #283C63;
+}
+.facebook, .linkedin, .twitter{
+    font-size: 8px;
+    color: white;
+    background-color: #44733C;
+    border: none;
+}
+select{
+    font-size: 14px;
+}
+option{
+    font-size: 13px;
+}
+.changePassword{
+    font-size: 12px;
+    color: #283C63;
+}
+.saveBtn{
+    border: none;
+    font-size: 10px;
+    background-color: #283C63;
+    color: white;
 }
