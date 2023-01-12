@@ -1,18 +1,23 @@
-.bod{
+.body{
     height: 100vh;
     background-color: #44733C;
     position: fixed;
-
 }
+
+/* logo styles */
 .logo{
-    position: absolute;
+    position: relative;
     top: 2%;
     font-size: large;
 }
 .link{
+  
     text-decoration: none;
     color: white;
 }
+
+
+/* navigation items styles */
 .active{
     background-color: white;
     color: #44733C !important;
@@ -33,6 +38,25 @@
 }
 
 
+/* hamburger styles */
+.fa-bars{
+    color: white;
+}
+.fa-times{
+    color: red;
+}
+.hamburger{
+    position: absolute;
+    top: 15%;
+}
+/* .fa-ravelry{
+    position: absolute;
+    top: 3%;
+} */
+
+
+
+/* logout styles */
 .logout-btn{
     color: red;
     text-decoration: none;
