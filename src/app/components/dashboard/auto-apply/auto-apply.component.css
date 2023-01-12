@@ -1,3 +1,26 @@
 .btn{
     background-color: #D9D9D9;
 }
+label{
+    font-size: 12px;
+    color: grey;
+    margin-left: 5px;
+}
+select{
+    font-size: 13px;
+    background-color: #C6DEBA;
+    border: none;
+    border-radius: 5%;
+}
+option{
+    font-size: 13px;
+}
+.saveBtn{
+    border: none;
+    font-size: 10px;
+    background-color: #283C63;
+    color: white;
+}
+.container-fluid{
+   
+}
