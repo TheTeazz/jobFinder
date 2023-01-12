@@ -117,7 +117,10 @@ label{
     border: none;
 }
 select{
-    font-size: 14px;
+    font-size: 13px;
+    background-color: #C6DEBA;
+    border: none;
+    border-radius: 5%;
 }
 option{
     font-size: 13px;
@@ -131,4 +134,9 @@ option{
     font-size: 10px;
     background-color: #283C63;
     color: white;
+}
+#resume{
+    background-color: #C6DEBA;
+    border: 1px solid grey;
+    padding: 4px;
 }

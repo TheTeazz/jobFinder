@@ -11,9 +11,10 @@ import { OverviewComponent } from './components/dashboard/overview/overview.comp
 import { JobMatchesComponent } from './components/job-matches/job-matches.component';
 import { UserInfoComponent } from './components/dashboard/user-info/user-info.component';
 import { JobDescriptionComponent } from './components/job-description/job-description.component';
-import { DashboardComponent } from './components/dashboard/dashboard/dashboard.component';
 import { ApplicationComponent } from './components/dashboard/application/application.component';
 import { ProfilePageComponent } from './components/profile-page/profile-page.component';
+import { AutoApplyComponent } from './components/dashboard/auto-apply/auto-apply.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,13 +27,14 @@ import { ProfilePageComponent } from './components/profile-page/profile-page.com
     JobMatchesComponent,
     UserInfoComponent,
     JobDescriptionComponent,
-    DashboardComponent,
     ApplicationComponent,
-    ProfilePageComponent
+    ProfilePageComponent,
+    AutoApplyComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
