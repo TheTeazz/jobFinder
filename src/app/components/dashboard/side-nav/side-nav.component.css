@@ -7,7 +7,7 @@
 /* logo styles */
 .logo{
     position: relative;
-    top: 2%;
+    top: 1%;
     font-size: large;
 }
 .link{
@@ -58,7 +58,7 @@
 
 /* logout styles */
 .logout-btn{
-    color: red;
+    color: black;
     text-decoration: none;
     font-size: small;
     border: 1px solid white;
