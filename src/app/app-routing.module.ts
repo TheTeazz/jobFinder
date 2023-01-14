@@ -12,14 +12,16 @@ import { AutoApplyComponent } from './components/dashboard/auto-apply/auto-apply
 
 const routes: Routes = [
   {path:'', component: LandingPageComponent},
-  {path:'Overview', component: OverviewComponent},
-  {path:'Job-matches', component: JobMatchesComponent},
-  {path:'Job-description', component: JobDescriptionComponent},
-  {path:'LogIn', component: LoginComponent},
-  {path:'SignUp', component: SignUpComponent},
-  {path:'Applications', component: ApplicationComponent},
-  {path:'Profile', component: ProfilePageComponent},
-  {path:'Auto-apply', component: AutoApplyComponent},
+  {path:'overview', component: OverviewComponent},
+  {path:'job-matches', component: JobMatchesComponent},
+  {path:'job-description', component: JobDescriptionComponent},
+  {path:'logIn', component: LoginComponent},
+  {path:'signUp', component: SignUpComponent},
+  {path:'applications', component: ApplicationComponent},
+  {path:'profile', component: ProfilePageComponent},
+  {path:'auto-apply', component: AutoApplyComponent},
+  {path:'email', component: AutoApplyComponent}
+
 ];
 
 @NgModule({

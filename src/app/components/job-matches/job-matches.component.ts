@@ -20,8 +20,5 @@ export class JobMatchesComponent implements OnInit {
     this.jobs.push(new Jobs('Angular Developer', 'Google inc.', true, ['Must be able to write clean and readable code using angularJS', 'Must be able to create responsive beautiful user interfaces....', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, beatae itaque. Dolor!' ]))
   }
 
-  toJobDescription(){
-    this.router.navigate(['./Job-description'])
-  }
 
 }
