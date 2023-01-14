@@ -9,6 +9,8 @@ import { JobDescriptionComponent } from './components/job-description/job-descri
 import { ApplicationComponent } from './components/dashboard/application/application.component';
 import { ProfilePageComponent } from './components/profile-page/profile-page.component';
 import { AutoApplyComponent } from './components/dashboard/auto-apply/auto-apply.component';
+import { NewPasswordComponent } from './password-reset/new-password/new-password.component';
+import { EmailComponent } from './password-reset/email/email.component';
 
 const routes: Routes = [
   {path:'', component: LandingPageComponent},
@@ -20,7 +22,8 @@ const routes: Routes = [
   {path:'applications', component: ApplicationComponent},
   {path:'profile', component: ProfilePageComponent},
   {path:'auto-apply', component: AutoApplyComponent},
-  {path:'email', component: AutoApplyComponent}
+  {path:'email', component: EmailComponent},
+  {path:'new-password', component: NewPasswordComponent}
 
 ];
 

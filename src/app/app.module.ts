@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,7 +15,10 @@ import { JobDescriptionComponent } from './components/job-description/job-descri
 import { ApplicationComponent } from './components/dashboard/application/application.component';
 import { ProfilePageComponent } from './components/profile-page/profile-page.component';
 import { AutoApplyComponent } from './components/dashboard/auto-apply/auto-apply.component';
-import { FormsModule } from '@angular/forms';
+import { EmailComponent } from './password-reset/email/email.component';
+import { NewPasswordComponent } from './password-reset/new-password/new-password.component';
+
+
 
 @NgModule({
   declarations: [
@@ -29,7 +33,9 @@ import { FormsModule } from '@angular/forms';
     JobDescriptionComponent,
     ApplicationComponent,
     ProfilePageComponent,
-    AutoApplyComponent
+    AutoApplyComponent,
+    EmailComponent,
+    NewPasswordComponent
   ],
   imports: [
     BrowserModule,
