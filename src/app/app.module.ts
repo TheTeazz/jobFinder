@@ -17,6 +17,7 @@ import { ProfilePageComponent } from './components/profile-page/profile-page.com
 import { AutoApplyComponent } from './components/dashboard/auto-apply/auto-apply.component';
 import { EmailComponent } from './password-reset/email/email.component';
 import { NewPasswordComponent } from './password-reset/new-password/new-password.component';
+import { FAQComponent } from './faq/faq.component';
 
 
 
@@ -35,7 +36,8 @@ import { NewPasswordComponent } from './password-reset/new-password/new-password
     ProfilePageComponent,
     AutoApplyComponent,
     EmailComponent,
-    NewPasswordComponent
+    NewPasswordComponent,
+    FAQComponent
   ],
   imports: [
     BrowserModule,

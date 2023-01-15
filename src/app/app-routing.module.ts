@@ -11,6 +11,7 @@ import { ProfilePageComponent } from './components/profile-page/profile-page.com
 import { AutoApplyComponent } from './components/dashboard/auto-apply/auto-apply.component';
 import { NewPasswordComponent } from './password-reset/new-password/new-password.component';
 import { EmailComponent } from './password-reset/email/email.component';
+import { FAQComponent } from './faq/faq.component';
 
 const routes: Routes = [
   {path:'', component: LandingPageComponent},
@@ -23,7 +24,8 @@ const routes: Routes = [
   {path:'profile', component: ProfilePageComponent},
   {path:'auto-apply', component: AutoApplyComponent},
   {path:'email', component: EmailComponent},
-  {path:'new-password', component: NewPasswordComponent}
+  {path:'new-password', component: NewPasswordComponent},
+  {path:'faq', component: FAQComponent}
 
 ];
 
