@@ -11,6 +11,9 @@
 .nav-link{
     color: white;
 }
+h5{
+  color: #44733C;
+}
 p{
     font-size: 14px;
 }
@@ -23,6 +26,7 @@ p{
     font-size: 12px;
 }
 .submitBtn{
+ 
     background-color: #283C63;
     border: none;
     color: white;
