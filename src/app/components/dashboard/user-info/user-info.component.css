@@ -3,9 +3,10 @@
     top: 0;
     color: #44733C;
   }
-  .user-name{
+  .notifs{
     font-size: 10px;
     font-style: italic;
+    cursor: pointer;
   }
   .user-image{
     background-color: aliceblue;

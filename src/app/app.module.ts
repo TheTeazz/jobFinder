@@ -18,6 +18,7 @@ import { AutoApplyComponent } from './components/dashboard/auto-apply/auto-apply
 import { EmailComponent } from './password-reset/email/email.component';
 import { NewPasswordComponent } from './password-reset/new-password/new-password.component';
 import { FAQComponent } from './faq/faq.component';
+import { NotificationsComponent } from './notifications/notifications.component';
 
 
 
@@ -37,7 +38,8 @@ import { FAQComponent } from './faq/faq.component';
     AutoApplyComponent,
     EmailComponent,
     NewPasswordComponent,
-    FAQComponent
+    FAQComponent,
+    NotificationsComponent
   ],
   imports: [
     BrowserModule,

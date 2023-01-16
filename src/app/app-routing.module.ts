@@ -12,6 +12,7 @@ import { AutoApplyComponent } from './components/dashboard/auto-apply/auto-apply
 import { NewPasswordComponent } from './password-reset/new-password/new-password.component';
 import { EmailComponent } from './password-reset/email/email.component';
 import { FAQComponent } from './faq/faq.component';
+import { NotificationsComponent } from './notifications/notifications.component';
 
 const routes: Routes = [
   {path:'', component: LandingPageComponent},
@@ -25,7 +26,8 @@ const routes: Routes = [
   {path:'auto-apply', component: AutoApplyComponent},
   {path:'email', component: EmailComponent},
   {path:'new-password', component: NewPasswordComponent},
-  {path:'faq', component: FAQComponent}
+  {path:'faq', component: FAQComponent},
+  {path:'notifications', component: NotificationsComponent}
 
 ];
 
