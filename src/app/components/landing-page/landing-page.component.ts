@@ -10,5 +10,6 @@ export class LandingPageComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
+    alert('Hello, I am not fully functional yet but you can click "ok" and see some of the mock features Tosin has embedded in me😉')
   }
 }
