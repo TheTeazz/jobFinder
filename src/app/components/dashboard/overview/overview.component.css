@@ -1,13 +1,4 @@
-.main {
-  /* border: 1px solid red; */
- font-size: 10px;
-}
-/* .content{
-  border: 1px solid red;
-}
-.widget{
-  border: 1px solid red;
-} */
+/* widget styles */
 .right {
   background-color: #fee7e0;
   color: #44733c;
@@ -16,6 +7,10 @@
   background-color: #d7f8f2;
   color: #44733c;
 }
+
+
+
+/* table styles */
 table {
   color: #44733c;
 }
@@ -31,3 +26,4 @@ th{
 .cap{
   font-size: small;
 }
+

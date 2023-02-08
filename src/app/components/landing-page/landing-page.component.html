@@ -4,34 +4,32 @@
 
     <!-- navigation bar -->
     <nav class="navbar navbar-expand-lg fixed-top shadow" style="background-color: #ffffff;">
-        <div class="container-fluid mx-3 px-5 pt-2 pb-2">
-            <a class="navbar-brand fs-6 fw-bold" style="color: #44733C; " href="#">AutoJobServe</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        <div class="container-fluid d-md-flex justify-content-between mx-3 px-md-5 pt-2 pb-2">
+            <a class="navbar-brand fs-6 fw-bold" style="color: #44733C; " href="#">JobFinder</a>
+            <div class="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto text-center">
                     <li class="nav-item">
-                        <a class="nav-link fs-6 active" style=" color: #44733C;" aria-current="page"
-                            href="#about">About Us</a>
+                        <a class="nav-link fs-6 active" style=" color: #44733C;" aria-current="page" href="#about"></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fs-6" style=" color: #44733C;" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-6" style=" color: #44733C;" href="" routerLink="/Dashboard">How it works</a>
+                        <a class="nav-link fs-6" style=" color: red;" routerLink="/overview">Overview</a>
                     </li>
-
-
-
                 </ul>
+            </div>
+            </div>
+          
 
-                <div class="text-center mt-1">
-                    <button class="btn btn-md fs-6 rounded-0" style="background-color:#44733C"><a style=""
-                            class="nav-link text-white" href="#contact">Log in</a></button>
-                </div>
-
+            <div class="text-center mt-1">
+                <button class="btn btn-md fs-6 rounded-0" style="background-color:#44733C"><a style=""
+                        class="nav-link text-white" routerLink="/logIn">Log in</a></button>
             </div>
         </div>
     </nav>
@@ -45,13 +43,14 @@
         <div
             class="hero col-md-4 d-flex flex-column align-items-center align-items-md-start justify-content-center  order-2 order-md-1 p-5">
             <p class="fs-1" style="color: #44733C;">Welcome to</p>
-            <h1 class="fw-bold fs-1" style="color: #44733C; ">AutoJobServe</h1>
+            <h1 class="fw-bold fs-1" style="color: #44733C; ">JobFinder</h1>
 
             <div class="buttons d-flex mt-3 mb-4">
-                <button class="btn btn-lg me-2 rounded-0" style="color: #44733C; background-color: #dafadb; border: 1px solid #44733C;"
-                    routerLink="/SignUp">Register</button>
+                <button class="btn btn-lg me-2 rounded-0"
+                    style="color: #44733C; background-color: #dafadb; border: 1px solid #44733C;"
+                    routerLink="/signUp">Register</button>
                 <button class="btn btn-lg me-2 rounded-0" style="color: #ffffff; background-color: #44733C;"
-                    routerLink="/LogIn">Log in</button>
+                    routerLink="/logIn">Log in</button>
             </div>
 
 
@@ -60,9 +59,7 @@
         <div class="hero-img col-md-6 d-flex align-items-center justify-content-center order-1 order-md-2 me-2"
             style="">
 
-            <img class="img-fluid"
-                src="https://trustwallet.com/assets/images/home_security.png"
-                alt="">
+            <img class="img-fluid" src="https://trustwallet.com/assets/images/home_security.png" alt="">
 
         </div>
     </div>
@@ -74,11 +71,7 @@
 
     <div class="row align-items-center justify-content-center py-5" style="background-color: #44733C;">
 
-        <!-- <div class="col-sm-6 me-1">
-            <img class='img-fluid container-sm'
-                src="https://www.pima.edu/_files/images/custom-icons/degree-icon.png"
-                class="img-fluid" alt="" >
-        </div> -->
+
 
         <div class="col-sm-7 p-1 text-center">
             <h5 class="text-light fs-2 mb-3">Looking to take the next step in your career?</h5>
@@ -183,13 +176,14 @@
 
         <div class="p-4 d-flex flex-column align-items-center justify-content-center">
             <div class="form-floating mb-3 col-12 col-md-7">
-                <input type="text" class="form-control border-success" id="floatingInput" placeholder="John Doe" style="height: 50px">
+                <input type="text" class="form-control border-success" id="floatingInput" placeholder="John Doe"
+                    style="height: 50px">
                 <label for="floatingInput" class="d-flex align-items-center" style="color: #44733C;">Full Name</label>
             </div>
 
             <div class="form-floating mb-3 col-12 col-md-7">
-                <input type="email" class="form-control border-success" id="floatingPassword" placeholder="johndoe@email.com"
-                    style="height: 50px">
+                <input type="email" class="form-control border-success" id="floatingPassword"
+                    placeholder="johndoe@email.com" style="height: 50px">
                 <label for="floatingPassword" class="d-flex align-items-center" style="color: #44733C;">Enter
                     e-mail</label>
             </div>
@@ -206,7 +200,7 @@
                 <label for="floatingTextarea2" style="color: #44733C;">Type a messsage</label>
             </div>
 
-            <button class="btn btn-lg btn-dark mt-3 rounded-0" >Send message</button>
+            <button class="btn btn-lg btn-dark mt-3 rounded-0">Send message</button>
         </div>
     </div>
 
@@ -217,23 +211,23 @@
         <div class="col-12 my-5 d-flex justify-content-around">
             <div class="list">
                 <a href="#" class="list-group-item list-group-item-action text-light" aria-current="true">
-                  Home
+                    Home
                 </a>
                 <a href="#about" class="list-group-item list-group-item-action text-white">About us</a>
                 <a href="#services" class="list-group-item list-group-item-action text-white">Our services</a>
                 <a href="#testimonials" class="list-group-item list-group-item-action text-white">Testimonials</a>
                 <a href="#contact" class="list-group-item list-group-item-action text-white">contact us</a>
-                <a href="#faqs" class="list-group-item list-group-item-action text-white">FAQs</a>
-              </div>
+                <a routerLink="/faq" class="list-group-item list-group-item-action text-white">FAQs</a>
+            </div>
 
             <div class="list">
                 <a href="#" class="list-group-item list-group-item-action text-white" aria-current="true">
-                  Facebook
+                    Facebook
                 </a>
                 <a href="#about" class="list-group-item list-group-item-action text-white">Instagram</a>
                 <a href="#services" class="list-group-item list-group-item-action text-white">LinkedIn</a>
                 <a href="#testimonials" class="list-group-item list-group-item-action text-white">Twitter</a>
-              </div>
+            </div>
         </div>
 
         <div class="col">

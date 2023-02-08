@@ -1,24 +1,84 @@
-<div class="nav-items text-center pt-4">
-    <div class="items">
-        <div class="nav-item ">
-            <span class=""><i class="fa fa-bars" aria-hidden="true"></i> Overview</span>
-        </div>
-        <div class="nav-item">
-            <span><i class="fa fa-thumbs-up" aria-hidden="true"></i> Job Matches</span>
-        </div>
-        <div class="nav-item">
-            <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Applications</span>
-        </div>
-        <div class="nav-item">
-            <span><i class="fa fa-android" aria-hidden="true"></i> Auto-Apply</span>
-        </div>
-        <div class="nav-item">
-            <span><i class="fa fa-user" aria-hidden="true"></i> Profile page</span>
-        </div>
+<div class="body col-sm-2 d-flex flex-column align-items-center" 
+[ngClass]="{
+    'col-1': !isActive,
+    'col-6': isActive,
+    'justify-content-start': isActive,
+    'justify-content-around': !isActive
+}"
+>
+
+    <!-- logo -->
+    <div class="logo mb-5 d-flex justify-content-start align-items-center" routerLink="">
+
+        <a href="" class="link d-md-block" [style.display]="smallScreenDisplay">JobFinder</a> 
+
+        <!-- <a href="" class="link d-md-none" 
+        [ngClass]="{
+            'd-none': !showLogo,
+            'd-block': showLogo
+        }"
+        ><i class="fa fa-ravelry" aria-hidden="true"></i></a>  -->
+
     </div>
 
-    <div class="butns mt-4">
-        <a href="" class="logout-btn p-2"><span class="f-awesome"><i class="fa fa-sign-out p-1" aria-hidden="true"></i></span>logout</a>
+
+
+
+
+    <!-- side nav list menu -->
+    <div class="nav-items d-sm-block mt-5" [style.display]="smallScreenDisplay">
+
+        
+        <div routerLink="/overview" routerLinkActive="active" class="nav-item ps-4">
+            <span class="d-sm-block d-lg-inline-block"> Overview</span>
+        </div>
+        <div routerLink="/job-matches" routerLinkActive="active" class="nav-item">
+            <i class="fa fa-thumbs-up pe-3" aria-hidden="true"></i>
+            <span class="d-sm-block d-lg-inline-block"> Job Matches</span>
+        </div>
+        <div routerLink="/applications" routerLinkActive="active" class="nav-item">
+            <i class="fa fa-pencil-square-o pe-3" aria-hidden="true"></i>
+            <span class="d-sm-block d-lg-inline-block"> Applications</span>
+        </div>
+        <div routerLink="/auto-apply" routerLinkActive="active" class="nav-item">
+            <i class="fa fa-android pe-3" aria-hidden="true"></i>
+            <span class="d-sm-block d-lg-inline-block"> Auto-Apply</span>
+        </div>
+        <div routerLink="/profile" routerLinkActive="active" class="nav-item">
+            <i class="fa fa-user pe-3" aria-hidden="true"></i>
+            <span class="d-sm-block d-lg-inline-block"> Profile page</span>
+        </div>
+    </div>
+    
+
+    <!-- hamburger menu icon -->
+    <div class="px-3 mt-3 col-12 d-sm-none d-flex align-items-center justify-content-center" 
+    
+    >
+        <i class="hamburger fa fa-bars fs-2" 
+        (click)="toggleOn()" 
+        aria-hidden="true" 
+        [ngClass]="{
+            'd-none': !showLogo,
+            'd-block': showLogo
+        }"></i>
+
+        <i class="fa fa-times fs-2 mb-2"
+        (click)="toggleOff()"
+         aria-hidden="true"
+        [ngClass]="{
+            'd-none': showLogo,
+            'd-block': !showLogo
+        }"
+        > close</i>
+    </div>
+
+
+<!-- logout button -->
+    <div class="mt-5 d-none d-sm-flex align-items-center justify-content-center text-center">
+       
+        <a href="" class="col-md-10 col rounded logout-btn p-2 m-5"><i class=" fa fa-sign-out" aria-hidden="true"></i> logout</a>
     </div>
 
 </div>
+

@@ -1,0 +1,55 @@
+<div class="d-flex">
+
+    <div class="col-sm-2 col-1 fixed">
+        <app-side-nav></app-side-nav>
+    </div>
+
+    <div class="main col-sm-10 col-11 p-4 p-sm-3">
+
+        <!-- user info -->
+        <div class="mb-3">
+            <app-user-info></app-user-info>
+        </div>
+
+
+        <!-- headline -->
+        <div class="mb-2">
+            <b>Hi Tosin, here are some jobs recommended for you</b>
+        </div>
+
+
+        <!-- job recommendations -->
+        <div class="p-1 row justify-content-center">
+            <div class="shadow p-3 m-1 col-md-5" *ngFor="let item of jobs">
+                <div class="d-flex justify-content-between">
+
+                    <div class="job-header">
+                        <b class="title">{{item.title}}</b>
+                        <p class="location">{{item.location}}</p>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center" *ngIf="item.isApplied">
+                        <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                        <p class="applied">Applied</p>
+                    </div>
+
+                </div>
+
+                <div class="">
+                    <h5 class="requirements ms-2"><b>Requirements</b> </h5>
+
+                    <ul>
+                        <li>{{item.requirements[0]}}</li>
+                        <li>{{item.requirements[1]}}</li>
+                        <li>{{item.requirements[2]}}</li>
+                    </ul>
+                </div>
+
+                <div class="text-center">
+                    <a class="btn" routerLink="/job-description">View details</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

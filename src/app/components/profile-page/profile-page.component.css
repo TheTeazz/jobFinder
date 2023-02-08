@@ -1,0 +1,142 @@
+/* nav  */
+
+.nav{
+    background-color: #498A3F;
+}
+.logo{
+    font-weight: 600;
+    color: white;
+}
+.logout-btn{
+    border: none;
+    background-color: rgba(0, 0, 0, .1);
+    font-size: 12px;
+}
+
+
+
+/* profile information */
+
+.personal-details{
+    background-color: #8DB687;
+}
+.profile-image{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+h3{
+    color: white;
+}
+p {
+    font-size: 12px;
+}
+span{
+    color: white;
+}
+.line{
+    width: 1px;
+    height: 100px;
+    border: 1px solid rgb(224, 221, 221);
+}
+
+/* professional details */
+
+h6{
+    color: #44733C;
+}
+textarea{
+    font-size: 12px;
+    min-height: 100px;
+}
+.submit{
+    color: white;
+    max-height: 40px;
+    font-size: 12px;
+    background-color: #283C63;
+}
+
+
+
+/* work experience */
+.job{
+    border-bottom: 1px solid rgb(207, 201, 201);
+}
+.role{
+    color: #44733C;
+}
+.add{
+    color: #44733C;
+}
+.cancel{
+    color: red;
+}
+.minus{
+    color: red;
+    cursor: pointer;
+}
+.duration{
+    color: #44733C;
+}
+
+.new-experience{
+    border: 1px solid black;
+}
+.btn{
+    background-color: #283C63;
+    width: 100px;
+    color: white;
+    font-size: 12px;
+}
+input::placeholder{
+    font-size: 12px;
+    margin: auto 10px;
+}
+.controls{
+    cursor: pointer;
+}
+.location{
+    color: grey;
+}
+
+/* other job settings */
+label{
+    font-size: 12px;
+    color: grey;
+}
+.resumeBtn{
+    border: none;
+    background-color: transparent;
+    color: #283C63;
+}
+.facebook, .linkedin, .twitter{
+    font-size: 8px;
+    color: white;
+    background-color: #44733C;
+    border: none;
+}
+select{
+    font-size: 13px;
+    background-color: #C6DEBA;
+    border: none;
+    border-radius: 5%;
+}
+option{
+    font-size: 13px;
+}
+.changePassword{
+    font-size: 12px;
+    color: #283C63;
+}
+.saveBtn{
+    border: none;
+    font-size: 10px;
+    background-color: #283C63;
+    color: white;
+}
+#resume{
+    background-color: #C6DEBA;
+    border: 1px solid grey;
+    padding: 4px;
+}

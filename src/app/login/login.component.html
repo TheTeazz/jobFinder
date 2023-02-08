@@ -1,5 +1,33 @@
 <div class="container-fluid">
 
+        <!-- navigation bar -->
+        <nav class="navbar navbar-expand-lg fixed-top shadow" style="background-color: #ffffff;">
+            <div class="container-fluid d-md-flex justify-content-between mx-3 px-md-5 pt-2 pb-2">
+                <a class="navbar-brand fs-6 fw-bold" style="color: #44733C; " href="#">JobFinder</a>
+                <div class="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link fs-6 active" style=" color: #44733C;" aria-current="page" href="#about"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-6" style=" color: #44733C;" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-6" style=" color: red;" routerLink="/overview">Overview</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+              
+
+            </div>
+        </nav>
+
     <div class="row d-flex align-items-center justify-content-center" style="background-color: #44733C; height: 100vh;">
 
         <div class="col-md-4 col-lg-4 col-xl-4 d-flex align-items-center justify-content-center w-50">
@@ -25,9 +53,9 @@
                 <button type="submit" class="btn btn-success w-75">Sign In</button>
 
                 <div class="other-links">
-                    <a class="mx-3 link-success text-decoration-none fs-6" routerLink="/SignUp">Don't have an
+                    <a class="mx-3 link-success text-decoration-none fs-6" routerLink="/signUp">Don't have an
                         account</a>
-                    <a class="mx-3 link-success text-decoration-none fs-6" href="http://">Forgot Password?</a>
+                    <a class="mx-3 link-success text-decoration-none fs-6" routerLink="/email">Forgot Password?</a>
                 </div>
             </div>
 

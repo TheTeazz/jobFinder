@@ -1,0 +1,53 @@
+.body{
+    min-height: 100vh;
+    /* position: absolute; */
+}
+.navbar{
+    background-color: #44733C;
+}
+.navbar-brand{
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+.loginBtn{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.signupBtn{
+    background-color: white;
+    border: none;
+    color: #44733C; 
+}
+
+/* faq styles */
+.accordion-button{
+    font-size: 14px;
+}
+.accordion-body{
+    font-size: 12px;
+    color: grey;
+}
+h5{
+    color: #606060;
+}
+
+.container{
+ 
+}
+
+/* faq footer styles */
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 20%;
+    background-color: #E1EADF;
+    font-size: 13px;
+}
+.footerBtn{
+    background-color: #44733C;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,16 @@
+.title, .location, .applied, .requirements{
+    font-size: 13px;
+}
+
+.title, .fa {
+    color: #44733C;
+}
+li{
+    font-size: 11px;
+}
+.btn{
+    background-color: #283C63;
+    color: white;
+    width: 100px;
+    font-size: 11px;
+}
